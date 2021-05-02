@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "test-poetry"
+version = "0.1.0"
+description = "Testing the use of poetry in Streamlit"
+authors = ["Adrien Treuille <adrien.g.treuille@gmail.com>"]
+
+[tool.poetry.dev-dependencies]
+pylint = "*"
+mypy = "*"
+rope = "*"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+streamlit = ">=0.81.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
